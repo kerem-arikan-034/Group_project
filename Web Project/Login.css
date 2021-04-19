@@ -1,0 +1,177 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.full-page
+{
+    height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/bg.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+.navbar
+{
+    display: inline;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+/* nav
+{
+    flex: 1;
+    text-align: right;
+}
+nav ul 
+{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 70px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+nav ul li button
+{
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+nav ul li button:hover
+{
+    color: aqua;
+}
+nav ul li a:hover
+{
+    color: #f6ae3b;
+} */
+a
+{
+    text-decoration: none;
+    color: #f6ae3b;
+    font-size: 28px;
+}
+
+.form-box
+{
+    width:23.75em;
+	height:30em;
+	position:relative;
+	margin:2% auto;
+	background:rgba(0,0,0,0.3);
+	padding:10px;
+    overflow: hidden;
+}
+.button-box
+{
+	width:14em;
+	margin:2.2em auto;
+	position:relative;
+	box-shadow: 0 0 1.4em .6em #ff61241f;
+	border-radius: 1.9em;
+}
+.toggle-btn
+{
+	padding: .6em 1.9em;
+	cursor:pointer;
+	background:transparent;
+	border:0;
+	outline: none;
+	position: relative;
+}
+#btn
+{
+	top: 0;
+	left:0;
+	position: absolute;
+	width: 6.9em;
+	height: 100%;
+	background: #f6ae3b;
+	border-radius: 1.9em;
+	transition: .5s;
+}
+.input-group-login
+{
+	top: 9.3em;
+	position:absolute;
+	width: 17.5em;
+	transition:.5s;
+}
+.input-group-register
+{
+    top: 7.5em;
+	position:absolute;
+	width: 17.5em;
+	transition:.5s;
+}
+.input-field
+{
+	width: 100%;
+	padding: 0.6em 0;
+	margin: .3em 0;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 1px solid #999;
+	outline:none;
+	background: transparent;
+}	
+
+.submit-btn
+{
+	width: 85%;
+	padding: .6em 1.9em;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: #f6ae3b;
+	border: 0;
+	outline: none;
+	border-radius: 2em;
+}
+.check-box
+{
+	margin: 1.9em .6em 2.1em 0;
+}
+span
+{
+	color:#777;
+	font-size: .7em;
+	bottom: 4.2em;
+	position:absolute;
+}
+#login
+{
+	left:50px;
+}
+#login input
+{
+	color:white;
+	font-size:15;
+}
+#register
+{
+	left: 28em;
+}
+#register input
+{
+	color:white;
+	font-size: 15;
+}

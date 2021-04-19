@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bear Toys</title>
+    <link rel="stylesheet" href="Login.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+<body>
+    <div class="full-page">
+        <div class="navbar">
+            <div>
+                <a href='Login.html'><i class="far fa-paw-alt"></i> BEAR TOYS </a>
+            </div>
+        </div>
+        <div id='login-form' class='login-page'>
+            <div class="form-box">
+                <div class='button-box'>
+                    <div id='btn'></div>
+                    <button type='button'onclick='login()'class='toggle-btn'>Log In</button>
+                    <button type='button'onclick='register()'class='toggle-btn'>Register</button>
+                    
+                </div>
+                <p id="p1"></p>
+        <form id='login' class='input-group-login'>
+            <input type='email'class='input-field' id="Email" placeholder='Email Id' required autofocus autocomplete="off" title="This feild is required" >
+		    <input type='password'class='input-field' id="Password" placeholder='Enter Password' required>
+		    <input type='checkbox'class='check-box'><span>Remember Password</span>
+		    <button type='submit'class='submit-btn' onclick="LoginCheck()">Log in</button>
+		 </form>
+		 <form id='register' class='input-group-register'>
+		     <input type='text'class='input-field'placeholder='First Name' required  />
+		     <input type='text'class='input-field'placeholder='Last Name ' required>
+		     <input type='email'class='input-field'placeholder='Email Id' required>
+		     <input type='password' id="password" class='input-field'placeholder='Enter Password' required>
+		     <input type='password' id="confirmpassword" class='input-field'placeholder='Confirm Password'  required>
+		     <input type='checkbox'class='check-box' required><span>I agree to the terms and                                                   conditions</span>
+             <button type='submit' onclick="Register()" class='submit-btn'>Register</button>
+	         </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/Login.js"></script>
+</body>
+</html>

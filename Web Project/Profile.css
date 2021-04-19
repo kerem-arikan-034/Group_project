@@ -1,0 +1,201 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    /* background-color: #6a5337; */
+    
+}
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/bgh.jpg);
+}
+.body{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.full-page
+{
+    height: 100%;
+	width: 100%;
+    /* background-color: #6a5337; */
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+
+}
+.navbar
+{
+    display: inline;
+    align-items: center;
+    padding: 1em;
+    padding-left: 3em;
+    padding-right: 1.2em;
+    padding-top: 3em;
+}
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+nav ul 
+{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 4.4em;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 1.4em;
+    color: white;
+    /* font-family:cursive; */
+}
+nav ul li button
+{
+    font-size: 1.4em;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+nav ul li button:hover
+{
+    color: aqua;
+}
+nav ul li a:hover
+{
+    color: #f6ae3b;
+}
+.Logo a
+{
+    text-decoration: none;
+    color: #f6ae3b;
+    font-size: 1.8em;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Stlye for the footer area */ 
+.footer{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    /* background-color: #f6ae3b; */
+    color:White; 
+} 
+.footer h3{
+    color: white;
+}
+/* Style for the paragraph */
+.footer p{
+    margin-top: .3em;
+}
+/* style for the hyperlinks in the footer  */
+.footer a{
+   line-height: 0em;
+   font-weight: bold;
+   color:white; 
+}
+.icons{
+    text-align: left;
+    font-size: xx-large;
+}
+.form-box
+{
+    width:20em;
+	height:30em;
+	position:relative;
+	margin:2% auto;
+	background:rgba(0,0,0,0.3);
+	padding:10px;
+    overflow: hidden;
+}
+.button-box
+{
+    text-align: center;
+	width:220px;
+	margin:35px auto;
+	position:relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+    background-color: #f6ae3b;
+}
+.toggle-btn
+{
+    color: white;
+    font-size: 100%;
+	padding:10px 30px;
+	cursor:pointer;
+	background:transparent;
+	border:0;
+	outline: none;
+	position: relative;
+}
+.input-group-register
+{
+    top: 120px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-field
+{
+    color: white;
+    padding-left: 10%;
+	width: 100%;
+	padding: .6em 0;
+	margin: .3em 0;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: .1em solid #999;
+	outline:none;
+	background: transparent;
+}
+.submit-btn
+{
+	width: 85%;
+	padding: .6em 2em;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: #f6ae3b;
+	border: 0;
+	outline: none;
+	border-radius: 2em;
+}
+.check-box
+{
+	margin: 1.8em .6em 2.2em 0;
+}
+span
+{
+	color:#777;
+	font-size: .7em;
+	bottom: 4.3em;
+	position:absolute;
+}
+/* #register
+{
+	left:450px;
+}
+#register input
+{
+	color:white;
+	font-size: 15;
+} */
+
+/* Style for the map */
+.map{
+    margin: auto;
+    margin-left: 6.25em;
+    margin-right: 6.25em;
+}
+#location{
+    text-align: center;
+    color: white;
+}

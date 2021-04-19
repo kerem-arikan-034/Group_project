@@ -1,0 +1,146 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    /* background-color: #6a5337; */
+    
+}
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/bgh.jpg);
+}
+.body{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.body div img{
+    max-width: 100%;
+}
+.full-page
+{
+    height: 100%;
+	width: 100%;
+    /* background-color: #6a5337; */
+
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+
+}
+.navbar
+{
+    display: inline;
+    align-items: center;
+    padding: 1em;
+    padding-left: 3em;
+    padding-right: 1.2em;
+    padding-top: 3em;
+}
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+nav ul 
+{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 4.4em;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 1.4em;
+    color: white;
+    /* font-family:cursive; */
+}
+nav ul li button
+{
+    font-size: 1.4em;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+nav ul li button:hover
+{
+    color: aqua;
+}
+nav ul li a:hover
+{
+    color: #f6ae3b;
+}
+.Logo a
+{
+    text-decoration: none;
+    color: #f6ae3b;
+    font-size: 1.8em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bxslider{
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.heading{
+    color:#f6ae3b ;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.content h1,h3{
+    text-align: center;
+    color:#f6ae3b ;
+    /* font-family:cursive; */
+}
+.package{
+    height: 25em;
+    width: 31.25em;
+    float: left;
+    padding-right: 1.25em;
+    font-size: 1.25em;
+    /* border: 3px solid black; */
+}
+.packageContent{
+    text-align:center;
+    color: white;
+    font-family:cursive;
+    font-size:x-large;
+    color:#f6ae3b ;
+}
+#terms a{
+    font-size: x-small;
+    color:#f6ae3b ;
+}
+
+/* Stlye for the footer area */ 
+.footer{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    /* background-color: #f6ae3b; */
+    color:White; 
+} 
+.footer h3{
+    color: white;
+}
+/* Style for the paragraph */
+.footer p{
+    margin-top: .3em;
+}
+/* style for the hyperlinks in the footer  */
+.footer a{
+   line-height: 0em;
+   font-weight: bold;
+   color:white; 
+}
+.icons{
+    text-align: left;
+    font-size: xx-large;
+}

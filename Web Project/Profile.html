@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="Profile.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script>
+        function Edit(){
+            document.getElementById("p1").innerHTML="Now You Can Edit Profile Details.";
+            document.getElementById("p1").style.color="Green";
+            document.getElementById('firstname').disabled = false;
+            document.getElementById('lastname').disabled = false;
+            document.getElementById('email').disabled = false;
+            document.getElementById('date').disabled = false;
+            document.getElementById('password').disabled = false;
+            document.getElementById('firstname').disabled = false;
+
+        }
+    </script>
+</head>
+<body>
+    <div class="full-page">
+        <div class="navbar">
+            <div class="Logo">
+                <a href='Login.html'><i class="far fa-paw-alt"></i> BEAR TOYS </a>
+            </div>
+            <nav>
+                <ul id='MenuItems'>
+                    <li><a href='Home.html'>Home</a></li>
+                    <li><a href='Product.html'>Products</a></li>
+                    <li><a href='Contact.html'>Contact Us</a></li>
+                    <li><a href="Profile.html">Admin@gmail.com <i class="far fa-user"></i></a> </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="body">
+            <div id='login-form' class='login-page'>
+                <div class="form-box">
+                    <div class='button-box'>
+                        <div id='btn'></div>
+                        <button type='button'onclick=''class='toggle-btn'>My Profile</button>
+                    </div>
+                    <p id="p1"></p>
+
+             <form id='register' class='input-group-register'>
+                <input type='text'class='input-field' placeholder='First Name' id="firstname" value="Admin" disabled/>
+                <input type='text'class='input-field' placeholder='Last Name'  id="lastname" value="Admin" disabled/>
+                <input type='email'class='input-field' placeholder='Email Id'  id="email" value="Admin@gmail.com" disabled>
+                <input type='date'class='input-field' placeholder='Date of Birth'  id="date" value="10-27-2000" disabled>
+                <input type='password'  class='input-field'placeholder='Enter Password' id="password" itemid="password" value="bear" disabled><br><br> 
+                 <button type='submit' onclick="" class='submit-btn'>Submit</button><br>
+                 <button type='button' onclick="Edit()" class='submit-btn'>Edit</button>
+
+                 </form>
+                </div>
+            </div>
+
+        </div>
+
+        <hr>
+        <div class="footer">
+            <p>&nbsp;</p>
+            <h3>BEAR TOYS WORLD<br />444 King Street, New York, USA, R1J 2NG</h3>
+            <a href="malito:customerservice@RJNGHOTEL.com">Email:customerservice@BEARTOYS.com</a><br>
+            <a href="tel:+1(437)522-8481">Call Us: +1(437)522-8481</a>
+            <p>&copy; 2021 BEAR TOYS WORLD. All Right Reserved.</p>
+
+            <div class="icons">
+               <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/?lang=en"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

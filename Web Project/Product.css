@@ -1,0 +1,261 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    /* background-color: #6a5337; */
+    
+}
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/bgh.jpg);
+}
+.body{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.full-page
+{
+    height: 100%;
+	width: 100%;
+    /* background-color: #6a5337; */
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+
+}
+.navbar
+{
+    display: inline;
+    align-items: center;
+    padding: 1em;
+    padding-left: 3em;
+    padding-right: 1.2em;
+    padding-top: 3em;
+}
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+nav ul 
+{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 4.4em;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 1.4em;
+    color: white;
+    /* font-family:cursive; */
+}
+nav ul li button
+{
+    font-size: 1.4em;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+nav ul li button:hover
+{
+    color: aqua;
+}
+nav ul li a:hover
+{
+    color: #f6ae3b;
+}
+.Logo a
+{
+    text-decoration: none;
+    color: #f6ae3b;
+    font-size: 1.8em;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Stlye for the footer area */ 
+.footer{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    /* background-color: #f6ae3b; */
+    color:White; 
+} 
+.footer h3{
+    color: white;
+}
+/* Style for the paragraph */
+.footer p{
+    margin-top: 0.3em;
+}
+/* style for the hyperlinks in the footer  */
+.footer a{
+   line-height: 0em;
+   font-weight: bold;
+   color:white; 
+}
+.icons{
+    text-align: left;
+    font-size: xx-large;
+}
+
+
+/* ________________________ */
+/* @import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'); */
+/* * {
+    padding: 0%;
+    margin: 0%;
+    /* color: #454545; */
+/* } */ 
+
+h1 {
+    width: 3%;
+    position: relative;
+    top: 50%;
+    left: 90%;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+h1:before {
+    content: attr(data-count);
+    position: absolute;
+    color: white;
+    right: 16%;
+    font-size: 1em;
+    text-align: center;
+    top: -0.7em;
+    width: 1.3em;
+    height: 1.3em;
+    background: red;
+    border-radius: red;
+    opacity: 0;
+}
+
+h1.zero::before {
+    opacity: 1;
+}
+
+section {
+    width: 90%;
+    height: 25em;
+    display: flex;
+    justify-content: space-around;
+    margin: 3.1em auto;
+}
+
+section div {
+    width: 18%;
+    height: 93%;
+    background: #f5f5f5;
+    padding: 1%;
+    position:relative;
+}
+
+#description{
+    font-size: 80%;
+    font-weight: normal;
+}
+img {
+    width: 13.75em;
+    height: 11.5em;
+}
+
+p {
+    margin: 0.3em;
+    font-weight: bold;
+}
+
+h6 {
+    width: 3.1em;
+    padding: 0.3em;
+    margin: 0.6em;
+    font-size: 1em;
+}
+
+button {
+    padding: 0.6em;
+    background: #f6ae3b;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    color: #fafafa;
+    cursor: pointer;
+}
+
+section div span {
+    position: absolute;
+    top: 1em;
+    left: 0.9em;
+    width: 18.75em;
+    height: 11.6em;
+    display: none;
+}
+
+section div span img {
+    width: 100%;
+    height: 100%;
+}
+
+.select {
+    width: 60%;
+    height: 36.25em;
+    background: #222;
+    position: absolute;
+    top: -62.5em;
+    left: 20%;
+    transition: 0.5s;
+    overflow-y: auto;
+    margin: auto;
+}
+
+.select.display {
+    top: 10px;
+}
+
+.select div {
+    width: 100%;
+    height: 12.5em;
+    display: flex;
+    padding: .3em;
+    border: .1em;
+    position: relative;
+    margin: .3em auto;
+}
+
+.select div img {
+    width: 18.75em;
+    height: 100%;
+}
+
+.select div p {
+    padding: 2em;
+    color: white;
+}
+
+.select div h6,
+.select div button {
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    color: white;
+}
+
+.select div button {
+    left: 45%;
+    top: 50;
+}
+.select div span {
+    display: none;
+}
+
+section div img {
+    max-width: 100%;
+    
+}
